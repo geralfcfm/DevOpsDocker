@@ -1,0 +1,10 @@
+services:
+  datascience:
+    image: geralfcfm/geral-datanotebook
+    ports:
+      - "8888:8888"
+
+  spark:
+    image: quay.io/jupyter/pyspark-notebook
+    ports:
+      - "8889:8888"
